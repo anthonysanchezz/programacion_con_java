@@ -20,5 +20,5 @@ public class LeeDatosScanner02 {
 
     System.out.println("Te llamas " + nombre + " y tienes " + edad + " años.");
     sc.close();
-  }
+  } // Cambio de prueba
 }
