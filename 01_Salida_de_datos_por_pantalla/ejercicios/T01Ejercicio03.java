@@ -2,7 +2,7 @@
  * T01Ejercicio03
  */
 /**
- * Imprme palabras en ingles y su respectiva traduccion en dos columnas
+ * Imprime palabras en ingles y su respectiva traduccion en dos columnas
  * 
  * @author Antonio Sánchez
  */
