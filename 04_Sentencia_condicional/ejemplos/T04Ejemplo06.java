@@ -45,7 +45,7 @@ public class T04Ejemplo06 {
       System.out.print("Introduce la altura de tu triángulo (m): ");
       int altura = sc.nextInt();
 
-      double area = (base * altura) / 2;
+      double area = (double) (base * altura) / 2;
       System.out.println("El area de tu triángulo es " + area + " m2.");
 
     } else {
