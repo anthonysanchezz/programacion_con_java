@@ -21,7 +21,7 @@ public class T03Ejercicio09 {
     System.out.print("Introduce la altura de tu cono: ");
     altura = sc.nextDouble();
 
-    double volumen = (Math.PI * radio * altura * radio) / 3;
+    double volumen = (Math.PI * (Math.pow(radio, 2)) * altura) / 3;
 
     System.out.printf("El volumen de tu cono es %.2f m3", volumen);
 
