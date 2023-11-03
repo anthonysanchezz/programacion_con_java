@@ -24,7 +24,7 @@ public class T04Ejemplo06v2 {
         int base = sc.nextInt();
 
         int area = base * base;
-        System.out.println("El area de tu cuadrado es " + area + " m2.");
+        System.out.println("El area de tu cuadrado es " + area + " m2");
         break;
       case 2:
         System.out.print("Introduce la base de tu rectángulo (m): ");
