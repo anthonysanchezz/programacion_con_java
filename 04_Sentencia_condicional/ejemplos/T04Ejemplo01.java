@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class T04Ejemplo01 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int nota;
+    double nota;
 
     System.out.print("¿Que nota has sacado?");
-    nota = sc.nextInt();
+    nota = sc.nextDouble();
 
     if (nota >= 5) {
       System.out.println("Enhorabuena, has aprobado!");
