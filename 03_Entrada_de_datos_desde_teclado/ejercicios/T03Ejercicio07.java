@@ -19,7 +19,7 @@ public class T03Ejercicio07 {
 
     double total = baseImponible * 1.21;
 
-    System.out.println("El total de la factura es " + total + " €");
+    System.out.printf("El total de la factura es %.2f €", total);
 
     sc.close();
   }

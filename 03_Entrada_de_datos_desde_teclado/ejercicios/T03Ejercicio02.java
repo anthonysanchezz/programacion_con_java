@@ -19,8 +19,8 @@ public class T03Ejercicio02 {
 
     int peseta = (int) (euro * 166.386);
 
-    System.out.printf("%.2f €", euro);
-    System.out.print(" son ");
+    System.out.printf("%.2f € ", euro);
+    System.out.print("son ");
     System.out.printf("%d", peseta);
     System.out.print(" pesetas.");
 
