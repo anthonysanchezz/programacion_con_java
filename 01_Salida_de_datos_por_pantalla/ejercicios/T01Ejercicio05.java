@@ -1,44 +1,42 @@
 
 /**
- * T01Ejercicio05
- */
-/**
- * Imprime el horario de clases con color para cada clase
+ * Imprime mi horario con colores 
  * 
  * @author Antonio Sánchez
  */
 import colors.ConsoleColors;
 
 public class T01Ejercicio05 {
-
-        public static void main(String[] args) {
-
-                System.out.printf("%-10s %-10s %-10s %-10s %-10s %s\n", "Horas", "Lunes", "Martes", "Miércoles",
-                                "Jueves",
-                                "Viernes");
-
-                System.out.printf("%-10s %-5s %-10s %-10s %-10s %s\n", "15:15", "\033[0;35mFOL\033[0;49m",
-                                "\033[0;31mPROGR\033[0;49m", "\033[0;33mENDES\033[0;49m", "\033[0;34mBADAT\033[0;49m",
-                                "\033[0;31mPROGR\033[0;49m");
-
-                System.out.printf("%-10s %-10s %-10s %-10s %-10s %s\n", "16:15", "\033[0;35mFOL\033[0;49m",
-                                "\033[0;31mPROGR\033[0;49m", "\033[0;33mENDES\033[0;49m", "\033[0;34mBADAT\033[0;49m",
-                                "\033[0;31mPROGR\033[0;49m");
-
-                System.out.printf("%-10s %-10s %-10s %-10s %-10s %s\n", "17:15", "\033[0;35mFOL\033[0;49m",
-                                "\033[0;34mBADAT\033[0;49m", "\033[0;34mBADAT\033[0;49m", "\033[0;32mLMSGI\033[0;49m",
-                                "\033[0;33mENDES\033[0;49m");
-
-                System.out.printf("%-10s %-10s %-10s %-10s %-10s %s\n", "18:30", "\033[0;36mSIINF\033[0;49m",
-                                "\033[0;34mBADAT\033[0;49m", "\033[0;34mBADAT\033[0;49m", "\033[0;32mLMSGI\033[0;49m",
-                                "\033[0;36mSIINF\033[0;49m");
-
-                System.out.printf("%-10s %-10s %-10s %-10s %-10s %s\n", "19:30", "\033[0;36mSIINF\033[0;49m",
-                                "\033[0;32mLMSGI\033[0;49m", "\033[0;31mPROGR\033[0;49m", "\033[0;31mPROGR\033[0;49m",
-                                "\033[0;36mSIINF\033[0;49m");
-
-                System.out.printf("%-10s %-10s %-10s %-10s %-10s %s\n", "20:30", "\033[0;36mSIINF\033[0;49m",
-                                "\033[0;32mLMSGI\033[0;49m", "\033[0;31mPROGR\033[0;49m", "\033[0;31mPROGR\033[0;49m",
-                                "\033[0;36mSIINF\033[0;49m");
-        }
+    public static void main(String[] args) {
+        System.out.println("Hora   LUNES    MARTES    MIERCOLES   JUEVES   VIERNES");
+        System.out
+                .println("15:15  " + ConsoleColors.PURPLE + "FOL     " + ConsoleColors.RED + " PROGR    "
+                        + ConsoleColors.YELLOW
+                        + " ENDES     " + ConsoleColors.BLUE + "  BADAT    " + ConsoleColors.RED + "PROGR");
+        System.out
+                .println(ConsoleColors.WHITE + "16:15  " + ConsoleColors.PURPLE + "FOL     " + ConsoleColors.RED
+                        + " PROGR    "
+                        + ConsoleColors.YELLOW
+                        + " ENDES     " + ConsoleColors.BLUE + "  BADAT    " + ConsoleColors.RED + "PROGR");
+        System.out
+                .println(ConsoleColors.WHITE + "17:15  " + ConsoleColors.PURPLE + "FOL     " + ConsoleColors.BLUE
+                        + " BADAT    "
+                        + ConsoleColors.BLUE
+                        + " BADAT     " + ConsoleColors.GREEN + "  LMSGI    " + ConsoleColors.YELLOW + "ENDES");
+        System.out
+                .println(ConsoleColors.WHITE + "18:30  " + ConsoleColors.CYAN + "SIINF   " + ConsoleColors.BLUE
+                        + " BADAT    "
+                        + ConsoleColors.BLUE
+                        + " BADAT     " + ConsoleColors.GREEN + "  LMSGI    " + ConsoleColors.CYAN + "SIINF");
+        System.out
+                .println(ConsoleColors.WHITE + "19:30  " + ConsoleColors.CYAN + "SIINF   " + ConsoleColors.GREEN
+                        + " LMSGI    "
+                        + ConsoleColors.RED
+                        + " PROGR     " + ConsoleColors.RED + "  PROGR    " + ConsoleColors.CYAN + "SIINF");
+        System.out
+                .println(ConsoleColors.WHITE + "20:30  " + ConsoleColors.CYAN + "SIINF   " + ConsoleColors.GREEN
+                        + " LMSGI    "
+                        + ConsoleColors.RED
+                        + " PROGR     " + ConsoleColors.RED + "  PROGR    " + ConsoleColors.CYAN + "SIINF");
+    }
 }
