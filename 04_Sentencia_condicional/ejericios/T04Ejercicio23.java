@@ -1,15 +1,15 @@
 
 /**
- * Explica tu codigo aqui
+ * Imprime ticket segun base, IVA y descuento
  * 
  * @author Antonio Sánchez
  */
 /**
- * T04Ejercicios23
+ * T04Ejercicio23
  */
 import java.util.Scanner;
 
-public class T04Ejercicios23 {
+public class T04Ejercicio23 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
@@ -59,11 +59,11 @@ public class T04Ejercicios23 {
 
     double total = (baseImponible + iva) + descPromo;
 
-    System.out.printf("Base impoible        %.2f\n", baseImponible);
-    System.out.printf("IVA (%.0f%%)             %.2f\n", ((iva / baseImponible) * 100), iva);
-    System.out.printf("Precio con IVA       %.2f\n", (baseImponible + iva));
-    System.out.printf("Cód promo. (%5s): %.2f\n", codigoPromo, descPromo);
-    System.out.printf("TOTAL                %.2f\n", total);
+    System.out.printf("%-22s %.2f\n", "Base imponible", baseImponible);
+    System.out.printf("%s (%.0f%%) %13s %.2f\n", "IVA", ((iva / baseImponible) * 100), " ", iva);
+    System.out.printf("%-22s %.2f\n", "Precio con IVA", (baseImponible + iva));
+    System.out.printf("%s (%5s):%4s %.2f\n", "Cód promo.", codigoPromo, " ", descPromo);
+    System.out.printf("%-22s %.2f\n", "TOTAL", total);
 
     sc.close();
   }
