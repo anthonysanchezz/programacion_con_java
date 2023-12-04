@@ -7,7 +7,7 @@
  * 4) Luego los añado a la tabla, mediante la llamada a ellos buscando la posicion dentro del bucle for
  * 5) Voy añadiendo asteríscos o espacios dependiendo de lo que falte para que se rellene hasta el mayor
  * 6) Añado salto de línea para pasar al siguiente
- * 7) Por último, añado asteríscos hasta llegar al mayor
+ * 7) Por último, añado asteríscos hasta llegar al mayor 
  * 
  * @author Antonio Sánchez
  */

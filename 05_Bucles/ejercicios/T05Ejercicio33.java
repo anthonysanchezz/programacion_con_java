@@ -28,7 +28,7 @@ public class T05Ejercicio33 {
     for (int i = 2; i < h; i++) {
       System.out.print("* ");
     }
-
+    
     sc.close();
   }
 }
