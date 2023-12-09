@@ -21,17 +21,17 @@ public class T05Ejercicio21 {
 
     System.out.println("Introduce números (número negativo para acabar): ");
 
-    while (num >= 0) { // Lo repite hasta que sea negativo
+    while (num >= 0) {                                                              // Lo repite hasta que sea negativo
       System.out.print("Introduce un número: ");
       num = sc.nextDouble();
-      if (num >= 0) { // Si es mayor que 0 el contador aumenta
+      if (num >= 0) {                                                               // Si es mayor que 0 el contador aumenta
         cont++;
-        if (num % 2 != 0) { // Si es impar
-          sumaImpares += num; // A la suma de los impares se le suma el número
-          impares++; // Y el contador de impares también aumenta
+        if (num % 2 != 0) {                                                         // Si es impar
+          sumaImpares += num;                                                       // A la suma de los impares se le suma el número
+          impares++;                                                                // Y el contador de impares también aumenta
         }
-        if (num % 2 == 0 && num > mayor) { // Si es par y además más grande que el mayor de los pares
-          mayor = num; // El número introducido es guardado como el mayor de ellos
+        if (num % 2 == 0 && num > mayor) {                                          // Si es par y además más grande que el mayor de los pares
+          mayor = num;                                                              // El número introducido es guardado como el mayor de ellos
         }
       }
     }
