@@ -1,6 +1,3 @@
-> .[!WARNING]
-> No funciona
-
 /**
  * Escribe un programa que diga cuántos dígitos pares y cuántos dígitos impares
  * hay dentro de un número. Se recomienda usar long en lugar de int ya que el
