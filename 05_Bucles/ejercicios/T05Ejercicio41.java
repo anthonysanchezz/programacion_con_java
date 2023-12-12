@@ -1,5 +1,5 @@
-// .[!WARNING]
-// No funciona
+> .[!WARNING]
+> No funciona
 
 /**
  * Escribe un programa que diga cuántos dígitos pares y cuántos dígitos impares
