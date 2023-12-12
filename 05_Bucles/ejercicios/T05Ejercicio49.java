@@ -1,4 +1,3 @@
-// No consigo sacar el mínimo
 /**
  * Realiza un programa que calcule el máximo, el mínimo y la media de una serie
  * de números enteros positivos introducidos por teclado. El programa terminará
@@ -21,7 +20,7 @@ public class T05Ejercicio49 {
 
     int contador = 0;
     int maximo = 0;
-    int minimo = maximo;
+    int minimo = 0;
     double suma = 0;
 
     while (!esPrimo) {
@@ -36,8 +35,12 @@ public class T05Ejercicio49 {
         if (numero > maximo) {
           maximo = numero;
         }
-        if (numero < minimo) {
+        if (contador == 0) {
           minimo = numero;
+        } else if (contador >= 1) {
+          if (numero < minimo) {
+            minimo = numero;
+          }
         }
         suma += numero;
         contador++;
